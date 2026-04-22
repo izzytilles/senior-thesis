@@ -74,3 +74,4 @@ jobs:
           app-name: 'honorableharvest'
           slot-name: 'Production'
           startup-command: 'gunicorn --bind=0.0.0.0:8000 --timeout 600 --chdir /home/site/wwwroot/app app:app'
+          deployment-method: zipDeploy
