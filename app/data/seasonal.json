@@ -1,0 +1,44 @@
+{
+  "Northern California": {
+    "01": ["Winter Squash", "Pomegranate", "Citrus", "Kale", "Leeks"],
+    "02": ["Winter Squash", "Citrus", "Kale", "Leeks", "Broccoli"],
+    "03": ["Artichokes", "Asparagus", "Peas", "Spinach", "Lettuce"],
+    "04": ["Artichokes", "Asparagus", "Peas", "Strawberries", "Lettuce"],
+    "05": ["Strawberries", "Cherries", "Peas", "Zucchini", "Lettuce"],
+    "06": ["Tomatoes", "Cucumbers", "Zucchini", "Corn", "Peaches", "Strawberries"],
+    "07": ["Tomatoes", "Cucumbers", "Corn", "Peppers", "Peaches", "Melons"],
+    "08": ["Tomatoes", "Cucumbers", "Corn", "Peppers", "Eggplant", "Melons"],
+    "09": ["Tomatoes", "Winter Squash", "Peppers", "Eggplant", "Apples", "Pears"],
+    "10": ["Winter Squash", "Pomegranate", "Apples", "Pears", "Kale"],
+    "11": ["Winter Squash", "Pomegranate", "Citrus", "Kale", "Brussels Sprouts"],
+    "12": ["Winter Squash", "Pomegranate", "Citrus", "Kale", "Leeks"]
+  },
+  "Southern California": {
+    "01": ["Citrus", "Avocado", "Broccoli", "Cauliflower", "Kale"],
+    "02": ["Citrus", "Avocado", "Broccoli", "Artichokes", "Kale"],
+    "03": ["Strawberries", "Artichokes", "Asparagus", "Avocado", "Peas"],
+    "04": ["Strawberries", "Artichokes", "Avocado", "Peas", "Lettuce"],
+    "05": ["Strawberries", "Cherries", "Avocado", "Zucchini", "Tomatoes"],
+    "06": ["Tomatoes", "Cucumbers", "Avocado", "Zucchini", "Peaches", "Strawberries"],
+    "07": ["Tomatoes", "Cucumbers", "Corn", "Peppers", "Avocado", "Melons"],
+    "08": ["Tomatoes", "Cucumbers", "Corn", "Peppers", "Avocado", "Eggplant"],
+    "09": ["Tomatoes", "Peppers", "Avocado", "Pomegranate", "Eggplant"],
+    "10": ["Pomegranate", "Avocado", "Winter Squash", "Citrus", "Kale"],
+    "11": ["Citrus", "Avocado", "Pomegranate", "Broccoli", "Kale"],
+    "12": ["Citrus", "Avocado", "Broccoli", "Cauliflower", "Kale"]
+  },
+  "Pacific Northwest": {
+    "01": ["Kale", "Brussels Sprouts", "Leeks", "Winter Squash", "Potatoes"],
+    "02": ["Kale", "Brussels Sprouts", "Leeks", "Winter Squash", "Potatoes"],
+    "03": ["Kale", "Leeks", "Peas", "Spinach", "Asparagus"],
+    "04": ["Asparagus", "Peas", "Spinach", "Lettuce", "Rhubarb"],
+    "05": ["Strawberries", "Asparagus", "Peas", "Lettuce", "Rhubarb"],
+    "06": ["Strawberries", "Cherries", "Peas", "Lettuce", "Zucchini"],
+    "07": ["Tomatoes", "Cucumbers", "Corn", "Blueberries", "Cherries", "Zucchini"],
+    "08": ["Tomatoes", "Cucumbers", "Corn", "Peppers", "Peaches", "Blackberries"],
+    "09": ["Tomatoes", "Winter Squash", "Apples", "Pears", "Peppers"],
+    "10": ["Winter Squash", "Apples", "Pears", "Kale", "Brussels Sprouts"],
+    "11": ["Winter Squash", "Kale", "Brussels Sprouts", "Leeks", "Potatoes"],
+    "12": ["Kale", "Brussels Sprouts", "Leeks", "Winter Squash", "Potatoes"]
+  }
+}

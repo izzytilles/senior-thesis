@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <form action="/produce" method="POST">
+    <select name="location">
+      {% for loc in locations %}
+        <option value="{{ loc }}">{{ loc }}</option>
+      {% endfor %}
+    </select>
+    <button type="submit">See What's in Season</button>
+  </form>
+</body>
+</html>

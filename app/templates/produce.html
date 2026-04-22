@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>In season now in {{ location }}</h2>
+  <form action="/recipes" method="POST">
+    {% for item in produce %}
+      <label>
+        <input type="checkbox" name="produce" value="{{ item }}"> {{ item }}
+      </label><br>
+    {% endfor %}
+    {% if error %}<p style="color:red;">{{ error }}</p>{% endif %}
+    <button type="submit">Get Recipes</button>
+  </form>
+</body>
+</html>
