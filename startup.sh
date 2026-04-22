@@ -1,7 +1,16 @@
 #!/bin/bash
+set -e
+
 echo "=== startup.sh: wwwroot contents ==="
 ls -la /home/site/wwwroot/
 echo "===================================="
+
+# Install dependencies into the antenv virtual environment
+if [ -f /home/site/wwwroot/requirements.txt ]; then
+    echo "Installing dependencies..."
+    pip install --target /home/site/wwwroot/__oryx_packages__ -r /home/site/wwwroot/requirements.txt
+    export PYTHONPATH="/home/site/wwwroot/__oryx_packages__:$PYTHONPATH"
+fi
 
 if [ -f /home/site/wwwroot/app/app.py ]; then
     gunicorn --bind=0.0.0.0:8000 --timeout 600 --chdir /home/site/wwwroot/app app:app
