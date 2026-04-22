@@ -20,4 +20,5 @@ months = [month.text for month in months_elements]
 
 print(produce_name, months)
 
+
 driver.quit()
